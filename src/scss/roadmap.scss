@@ -1,0 +1,89 @@
+@import "./variable.scss";
+@import "./media.scss";
+
+.roadmap {
+  padding: 90px 30px;
+  position: relative;
+
+  z-index: 5;
+  @include md {
+    overflow: hidden;
+  }
+
+  .heading {
+    h2 {
+      font-size: clamp(4rem, 5vw, 7rem);
+      line-height: 1.2em;
+      display: block;
+      text-shadow: 1px 2px 11px #00000026;
+      text-align: center;
+      color: #b94841;
+      text-transform: uppercase;
+      margin-bottom: -30px;
+      position: relative;
+      z-index: 3;
+      @include sm {
+        font-size: 3.5rem;
+      }
+    }
+  }
+
+  .container {
+    max-width: 900px;
+    margin: 0px auto;
+    padding: 0 10px;
+
+    .grid {
+      margin-top: 70px;
+      display: grid;
+      .item {
+        padding-left: 35px;
+        border-left: 2px solid #b94841;
+        position: relative;
+        padding-bottom: 50px;
+        span {
+          position: absolute;
+          background: #202024;
+          left: -18px;
+          padding: 5px;
+          width: 33px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #b94841;
+          font-weight: 900;
+          border-radius: 7px;
+          height: 33px;
+          font-size: 17px;
+        }
+        h2 {
+          font-size: 2rem;
+          margin-bottom: 15px;
+          line-height: 1;
+          color: #b94841;
+        }
+        p {
+          width: 80%;
+          line-height: 1.3;
+          color: #fff;
+        }
+      }
+    }
+  }
+}
+
+@media (min-width: 0) and (max-width: 768px) {
+  .roadmap {
+    .container {
+      .heading {
+        > h1 {
+          font-size: clamp(2.5rem, 7vw, 3rem);
+        }
+      }
+
+      .roadmap__grid {
+        padding: 10px 10px;
+      }
+    }
+  }
+}

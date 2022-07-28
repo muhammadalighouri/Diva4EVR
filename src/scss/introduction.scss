@@ -1,0 +1,88 @@
+@import "./variable.scss";
+@import "./media.scss";
+
+.intro {
+  position: relative;
+  padding: 60px 0;
+  height: 100vh;
+  z-index: 5;
+
+  display: grid;
+  @include xlaptop {
+    display: inherit;
+    height: 130vh;
+  }
+  @include md {
+height: 120vh;
+  }
+  @include sm6 {
+    height: 100vh;
+      }
+  .start {
+    position: absolute;
+    bottom: 0;
+    left: -20%;
+    max-width: 800px;
+    width: 100%;
+    z-index: 9;
+    @include xlaptop {
+      max-width: 700px;
+    }
+    @include md {
+      max-width: 500px;
+    }
+    @include sm6 {
+      max-width: 400px;
+    }
+    @include xxl{
+      left: -8%;
+    }
+  }
+  .end {
+    position: absolute;
+    bottom: 0;
+    right: -20%;
+    max-width: 800px;
+    width: 100%;
+    z-index: 9;
+    @include xlaptop {
+      max-width: 700px;
+    }
+    @include md {
+      max-width: 500px;
+    }
+    @include sm6 {
+      max-width: 400px;
+    }
+    @include xxl{
+      right: -8%;
+    }
+  }
+  .middle {
+    width: 35%;
+    margin: auto;
+    display: grid;
+    place-content: center;
+    z-index: 100;
+    @include xlaptop {
+      width: 90%;
+    }
+
+    p {
+      text-align: center;
+      color: #fff;
+      font-size: clamp(1rem, 5vw, 1.3rem);
+      font-weight: 100;
+      text-transform: capitalize;
+      line-height: 1.4;
+      position: relative;
+    }
+    h1 {
+      color: #fff;
+      font-size: clamp(2rem, 5vw, 4rem);
+      text-align: center;
+      margin-bottom: 15px;
+      text-transform: uppercase;
+    }
+  }
+}
