@@ -174,7 +174,7 @@ export const BannerImages = [
 export const links = [
   {
     name: "twitter",
-    link: "https://twitter.com/MetaElves_NFT?t=bh8jlLxN07OYoGjtiZrUug&s=09",
+    link: "https://twitter.com/Diva4EVR_NFT",
     svg: <AiOutlineTwitter />,
     src: "/images/instagram-png.webp",
   },
