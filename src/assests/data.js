@@ -14,57 +14,73 @@ export const nav = [
     name: "Traits",
     path: "#trait",
   },
+  {
+    name: "Faqs",
+    path: "#faq",
+  },
 ];
 
 export const roadmap = [
   {
     id: "01",
-    name: "CURRENT EVENTS",
-    desc: "To us, the community comes first. The main goal is to make sure your investment and our mint are as successful as possible, to achieve all of our goals. We will also constantly work to release the best value and quality possible. We will announce our drop release date once we are satisfied with the project’s quality and technical parts",
+    name: "List Diva4EVR Collection On Opensea",
+    desc: "Diva4EVR NFT is an aesthetic and emotional project with women not just being the subject of art but actually having the power to make decisions and change the world themselves.",
     imgUrl: "/images/nft/13-removebg-preview.png",
   },
   {
     id: "02",
-    name: "  Launch of our Merch & Exclusive Event",
-    desc: " We will release our first merch collection of Meta Elves that will be available only for the holder. To celebrate the achievement of our goals, we are to organize a party for our holders, the community choose the location",
+    name: "Spread the word and create buzz about our Divas",
+    desc: "Want to make a difference in the lives of women around the world? We thank you! Your words of encouragement and inspirational stories mean so much to our Divas. They also help promote our mission to empower women through employment, education and enterprise development.",
     imgUrl: "/images/nft/18-removebg-preview.png",
   },
   {
     id: "03",
-    name: "Funding Time & Breeding Unlock  ",
-    desc: "We are committed to support, invest, reward, and collaborate with the best projects in the space and projects ideas of our members. You'll need a total of 2 Meta Elves to breed your Meta Elves, to get a 2nd Generation Meta Elves.",
+    name: "Utility Introduced  ",
+    desc: "Specially made any gender, to present their inner power and beauty. Inner, self confidence is the key of happiness. Details will be shared.",
     imgUrl: "/images/nft/17-removebg-preview.png",
   },
 
   {
     id: "04",
-    name: "Meta Elves City",
-    desc: "We are planning to buy some land for our Community The Meta Elves community will have access to private events in the Metaverse.  ",
+    name: " Introduce Rewards & Giveaways",
+    desc: "In a world that’s becoming more focused on the equality, we wanted to implement an ambitious NFT project that would encourage our community to follow in our footsteps. We are introducing a Community Reward & Giveaways events that allows our community to have the unique opportunity to receive rewards and will be able to earn them through various activities.  ",
     imgUrl: "/images/nft/15-removebg-preview.png",
   },
   {
-    id: "04",
-    name: "Meta Elves Over The World ",
-    desc: " We want to show you that you made the best choice to join Meta Elves and make sure that your investment is profitable. To do so we are planning to do massive marketing (well known celebrities, Ads in the biggest cities in the world ...)",
+    id: "05",
+    name: "Second Season Collection",
+    desc: "Divas are bold and fearless in all their endeavors. The second season of Diva4Ever will showcase a beautiful collection of limited edition NFTs inspired by the stars you see in the sky each night. Come back soon to find out which NFTs we'll be releasing next!",
 
-    imgUrl: "/images/nft/15-removebg-preview.png",
+imgUrl: "/images/nft/15-removebg-preview.png",
   },
 ];
 export const FAQ = [
   {
-    q: "What Blockchain is it on?",
-    ans: ["Meta Elves reside on the Polygon Blockchain."],
+    q: "What is NFTs ?",
+    ans: ["NFTs Stands for non-fungible tokens. Non-fungible tokens are unique cryptographic tokens that exist on blockchain and cannot be replicated-having unique identification code, metadata and properties.     "],
   },
 
   {
-    q: "How can i join the community?",
+    q: "Why NFTs are so popular ?",
     ans: [
-      "You can join us on Twitter and Instagram! The official links are on this website.",
+      "One of the reasons why NFTs are so popular is explained by what an NFT is. Non-fungible tokens are like a digital receipt that shows that you own a collectable item. NFTs are one of a kind, they can't be exchanged and they reflect ownership of totally unique items. This is where the popularity comes in. ",
     ],
   },
   {
+    q: "Are NFTs a good investment ? ",
+    ans: ["NFTs are digital assets that act as secure documentation of ownership and can be a worthwhile investment for collectors and investors. "],
+  },
+  {
     q: "How many Meta Elves are there? ",
-    ans: ["5000"],
+    ans: ["NFTs have a great future, especially with the idea of turning real world assets into NFTs. Also the idea of fractionalizing NFTs; that is allowing more than one person to co-own an NFT will bring NFT into mass adoption."],
+  },
+  {
+    q: "How do i know which NFT will be worth of  money ?",
+    ans: ["The social proof associated with the project behind an NFT is one of the decisive factors that determine the NFT's value. Checking their profiles on social media platforms like Twitter and Instagram can help one gauge their acceptability."],
+  },
+  {
+    q: "What about the price ?",
+    ans: ["The floor price is 0.043 ETH."],
   },
 ];
 
@@ -164,14 +180,9 @@ export const links = [
   },
   {
     name: "discord",
-    link: "https://twitter.com/MetaElves_NFT?t=bh8jlLxN07OYoGjtiZrUug&s=09",
+    link: "https://discord.gg/Jr83NYXSAR",
     svg: <FaDiscord />,
     src: "/images/discord-png.webp",
   },
-  {
-    name: "instagram",
-    link: "https://www.instagram.com/metaelvesnft/",
-    svg: <AiOutlineInstagram />,
-    src: "/images/instagram-png.webp",
-  },
+ 
 ];

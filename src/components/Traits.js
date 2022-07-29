@@ -46,7 +46,7 @@ const Traits = () => {
   return (
     <section className="trait" id="trait">
       <div className="heading">
-        <h2 data-aos="fade-up" data-aos-delay="300" data-aos-easing="ease-out">
+        <h2 data-aos="zoom-out-right" data-aos-delay="300" data-aos-easing="ease-out">
           Traits
         </h2>
       </div>
@@ -59,7 +59,7 @@ const Traits = () => {
             <div className="traits__grid">
               {traitData.map((item, ind) => {
                 return (
-                  <div className="item">
+                  <div className="item" data-aos='zoom-out'>
                     <h2>{item.trait}</h2>
                     <span>{item.number}</span>
                   </div>

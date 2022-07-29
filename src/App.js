@@ -40,6 +40,7 @@ function App() {
             <AboutNft />
             <Roadmap />
             <Traits />
+            <Faq />
             <Footer />
           </main>
         </>

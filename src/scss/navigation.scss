@@ -142,16 +142,16 @@ header {
               justify-content: center;
               font-weight: 600;
               align-items: center;
-
+              border: 1px solid #dfdfdf;
               @include lg {
                 margin-right: 50px;
               }
 
               &:hover {
                 cursor: pointer;
-                // transform: rotate(-2deg) scale(1.1);
+
                 background-color: black;
-                color: #fff;
+                color: #fff !important;
                 border-color: #dfdfdf;
               }
 

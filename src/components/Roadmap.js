@@ -12,7 +12,7 @@ const Roadmap = () => {
       <section id="roadmap" className="roadmap">
         <div className="heading">
           <h2
-            data-aos="zoom-out-up"
+            data-aos="zoom-out-right"
             data-aos-delay="300"
             data-aos-easing="ease-out"
           >
