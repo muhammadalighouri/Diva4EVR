@@ -48,7 +48,7 @@ const Faq = () => {
               >
                 {FAQ.map((item, i) => {
                   return (
-                    <Accordion key={i}>
+                    <Accordion key={i}  >
                       <AccordionSummary
                         expandIcon={<ExpandMoreIcon />}
                         aria-controls="panel1a-content"
