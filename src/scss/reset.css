@@ -107,25 +107,16 @@ h2 {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  /* font-family: 'Roboto', sans-serif !important; */
-  /* font-family: 'HeavitasHeavitas', sans-serif !important;
-  font-family: 'Evogria', sans-serif !important;
-  font-family: 'Fredoka', sans-serif !important;
-  font-family: 'Alternate Gothic', sans-serif !important; */
-  font-family: "Barlow Light" ;
+  font-family: "Barlow Light";
   text-decoration: none;
-  color: #dfdfdf ;
-}
-/* body::-webkit-scrollbar {
-  width: 5px;
+  color: #dfdfdf;
 }
 
-/* Track */
 body::-webkit-scrollbar-track {
   background: #f1f1f1;
 }
 
-/* Handle */
+
 body::-webkit-scrollbar-thumb {
   background: #6e70f3;
   border-radius: 100px;
@@ -139,7 +130,8 @@ body::-webkit-scrollbar-thumb {
 }
 h1,
 h2 {
-  /* font-family: "Playfair Display", serif; */
+ 
+  
   font-weight: 900;
 }
 ::before,

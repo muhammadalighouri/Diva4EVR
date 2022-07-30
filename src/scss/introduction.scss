@@ -6,18 +6,16 @@
   padding: 60px 0;
   height: 100vh;
   z-index: 5;
-
   display: grid;
   @include xlaptop {
     display: inherit;
     height: 130vh;
   }
   @include md {
-height: 120vh;
+    height: 100%;
+    padding: 60px 0 500px;
   }
-  @include sm6 {
-    height: 100vh;
-      }
+
   .start {
     position: absolute;
     bottom: 0;
@@ -34,7 +32,7 @@ height: 120vh;
     @include sm6 {
       max-width: 400px;
     }
-    @include xxl{
+    @include xxl {
       left: -8%;
     }
   }
@@ -54,7 +52,7 @@ height: 120vh;
     @include sm6 {
       max-width: 400px;
     }
-    @include xxl{
+    @include xxl {
       right: -8%;
     }
   }

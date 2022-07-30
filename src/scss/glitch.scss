@@ -36,7 +36,7 @@
   
   .glitch{
     width: 100vw;
-    height: 100vh;
+    height: 50vh;
     max-width:100%;
     position: relative;
     display: flex;
@@ -45,12 +45,13 @@
     overflow: hidden;
     
     .glitch__item{
-      background: url('../../public/images/Background/banner.png') no-repeat 50% 50% / cover;
+      background: url('../../public/images/Background/banner.png') no-repeat 50% 50% ;
       height: 100%;
       width: 100%;
       top: 0;
       left: 0;
       position: absolute;
+      background-size: 100%;
     }
     
     .glitch__item:nth-child(n+2) {
