@@ -5,19 +5,7 @@ import Marquee from "react-easy-marquee";
 import { Parallax } from "react-parallax";
 import bg from "./back.webp";
 const Introduction = () => {
-  // write gsap scroll trigger animation code
-  // const tl = new TimelineLite();
-  // tl.from(".start", 1, {
-  //   y: -100,
-  //   ease: Power4.easeOut,
-  //   delay: 0.5,
-  //   opacity: 0,
-  //   stagger: 0.5,
-  //   onComplete: () => {
-  //     console.log("done");
-  //   }
-  // });
-  // gsap scroll trigger react code
+
   const [isVisible, setIsVisible] = React.useState(false);
   const handleScroll = () => {
     if (window.scrollY > 100) {
@@ -34,21 +22,6 @@ const Introduction = () => {
   }, []);
   const tl = new TimelineLite();
 
-  //   tl.to(".start", 1, {
-  //     x: -25,
-
-  //     opacity: 1,
-
-  //     scale: 1,
-  //     duration: 1,
-  //     ease: Power4.easeOut,
-  //     scrollTrigger: {
-  //       trigger: "middle",
-  //       start: "top top",
-  //       end: "bottom bottom",
-  //       scrub: true,
-  //     },
-  //   });
 
   return (
     <>
@@ -56,32 +29,23 @@ const Introduction = () => {
         blur={0}
         bgImage={bg}
         bgStyle={{ filter: "brightness(0.5)" }}
-        bgImageAlt="the cat"
         strength={200}
       >
         <div className="marq">
           <Marquee duration={400000} background="transparent" height="60px">
-            <h1 style={{textTransform:'uppercase'}}>
+            <h1 style={{ textTransform: "uppercase" }}>
               A collection of goddess-like divas with a variety of personalities
               and styles.
             </h1>
-
-            &nbsp;
-            &nbsp;
-            &nbsp;
-            &nbsp;
-            <h1 style={{textTransform:'uppercase'}}>
+            &nbsp; &nbsp; &nbsp; &nbsp;
+            <h1 style={{ textTransform: "uppercase" }}>
               Unexplored territory lies ahead...take the path less traveled
             </h1>
-            &nbsp;
-            &nbsp;
-            &nbsp;
-            &nbsp;
-            <h1 style={{textTransform:'uppercase'}}>The Divas of the World are Uniting</h1>
-            &nbsp;
-            &nbsp;
-            &nbsp;
-            &nbsp;
+            &nbsp; &nbsp; &nbsp; &nbsp;
+            <h1 style={{ textTransform: "uppercase" }}>
+              The Divas of the World are Uniting
+            </h1>
+            &nbsp; &nbsp; &nbsp; &nbsp;
           </Marquee>
         </div>
         <section className="intro">
