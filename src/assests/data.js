@@ -56,30 +56,30 @@ imgUrl: "/images/nft/15-removebg-preview.png",
 ];
 export const FAQ = [
   {
-    q: "What is NFTs ?",
+    q: "What is NFTs?",
     ans: ["NFTs Stands for non-fungible tokens. Non-fungible tokens are unique cryptographic tokens that exist on blockchain and cannot be replicated-having unique identification code, metadata and properties.     "],
   },
 
   {
-    q: "Why NFTs are so popular ?",
+    q: "Why NFTs are so popular?",
     ans: [
       "One of the reasons why NFTs are so popular is explained by what an NFT is. Non-fungible tokens are like a digital receipt that shows that you own a collectable item. NFTs are one of a kind, they can't be exchanged and they reflect ownership of totally unique items. This is where the popularity comes in. ",
     ],
   },
   {
-    q: "Are NFTs a good investment ? ",
+    q: "Are NFTs a good investment? ",
     ans: ["NFTs are digital assets that act as secure documentation of ownership and can be a worthwhile investment for collectors and investors. "],
   },
   {
-    q: "How many Meta Elves are there? ",
+    q: "What's the future of NFTs?",
     ans: ["NFTs have a great future, especially with the idea of turning real world assets into NFTs. Also the idea of fractionalizing NFTs; that is allowing more than one person to co-own an NFT will bring NFT into mass adoption."],
   },
   {
-    q: "How do i know which NFT will be worth of  money ?",
+    q: "How do i know which NFT will be worth of money?",
     ans: ["The social proof associated with the project behind an NFT is one of the decisive factors that determine the NFT's value. Checking their profiles on social media platforms like Twitter and Instagram can help one gauge their acceptability."],
   },
   {
-    q: "What about the price ?",
+    q: "What about the price?",
     ans: ["The floor price is 0.043 ETH."],
   },
 ];

@@ -15,7 +15,7 @@ const Footer = () => {
             </a>
           </div>
           <p>
-  &copy; Copyright 2022 All rights Reserved to <span>www.Diva4EVR.io</span> 
+  &copy; Copyright 2022 All rights Reserved to <span>www.Diva4EVR.com</span> 
           
           </p>
         </div>

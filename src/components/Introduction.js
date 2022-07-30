@@ -32,7 +32,7 @@ const Introduction = () => {
         strength={200}
       >
         <div className="marq">
-          <Marquee duration={50000} background="transparent" height="60px">
+          <Marquee duration={50000} background="transparent"  height="60px">
             <h1 style={{ textTransform: "uppercase" }}>
               A collection of goddess-like divas with a variety of personalities
               and styles.

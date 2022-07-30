@@ -142,12 +142,12 @@ const AboutNft = () => {
           </div>
         </div>
       </section>
-      <section id="about" className="about witch">
+      <section id="about" className="about  sec witch">
         <div className="container">
           <img src="/images/elements/witch1.png" className="avatar" alt="" />
           <img src="/images/elements/witch2.png" className="avatar" alt="" />
           <img src="/images/elements/witch3.png" className="avatar" alt="" />
-          <div className="about__grid">
+          <div className="about__grid even">
             <div
               className="img"
               data-aos="fade-right"
@@ -182,12 +182,12 @@ const AboutNft = () => {
           </div>
         </div>
       </section>
-      <section id="about" className="about sec gothic">
+      <section id="about" className="about gothic">
         <div className="container">
           <img src="/images/elements/gothic1.png" className="avatar" alt="" />
           <img src="/images/elements/gothic2.png" className="avatar" alt="" />
           <img src="/images/elements/gothic3.png" className="avatar" alt="" />
-          <div className="about__grid even">
+          <div className="about__grid ">
             <div
               className="img"
               data-aos="fade-left"
@@ -222,7 +222,6 @@ const AboutNft = () => {
           </div>
         </div>
       </section>
-
       <section id="about" className="about sec viking ">
         <div className="container">
           <img src="/images/elements/viking1.png" className="avatar" alt="" />
