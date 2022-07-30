@@ -64,11 +64,11 @@ const AboutNft = () => {
           </div>
         </div>
       </section>
-      <section id="about" className="about sec gothic">
+      <section id="about" className="about sec greek">
         <div className="container">
-          <img src="/images/elements/gothic1.png" className="avatar" alt="" />
-          <img src="/images/elements/gothic2.png" className="avatar" alt="" />
-          <img src="/images/elements/gothic3.png" className="avatar" alt="" />
+          <img src="/images/elements/greece1.png" className="avatar" alt="" />
+          <img src="/images/elements/greece2.png" className="avatar" alt="" />
+          <img src="/images/elements/greece3.png" className="avatar" alt="" />
           <div className="about__grid even">
             <div
               className="img"
@@ -76,20 +76,19 @@ const AboutNft = () => {
               data-aos-delay="300"
               data-aos-easing="ease-out"
             >
-              <img src={"/images/nft/Gothic/Gothic.gif"} alt="" />
+              <img src={"/images/nft/Greek/Greek.gif"} alt="" />
             </div>
             <div className="details">
               <div>
-                <h2 data-aos="fade-right">Gothic</h2>
+                <h2 data-aos="fade-right">Greek</h2>
               </div>
               <p data-aos="fade-right" data-aos-delay="300">
-                The allure of darkness reigns supreme in our 500 Gothic theme
-                NFTs. Dark and mysterious, these gothic women exude elegance
-                that’s hard to ignore. These women have faced their demons, and
-                you’ll feel stronger for it. The black, white, and red of this
-                collection are inspired by the color schemes of classic gothic
-                architecture (think spires and gargoyles). The beauty of the
-                dark is timeless.
+                Indulge yourself in the beauty of 2000 Greek theme NFTs. They
+                are hypnotic and possess features that will please you in every
+                way. In order for beauty to last, it must be timeless and
+                eternal. The more you stare, the more they seem to come alive.
+                Hypnotic eyes, seductive lips and alluring curves are what make
+                this Greek collection of beautiful women so attractive.
               </p>
               <a
                 data-aos="fade-right"
@@ -143,45 +142,6 @@ const AboutNft = () => {
           </div>
         </div>
       </section>
-      <section id="about" className="about sec viking ">
-        <div className="container">
-          <img src="/images/elements/viking1.png" className="avatar" alt="" />
-          <img src="/images/elements/viking2.png" className="avatar" alt="" />
-          <img src="/images/elements/viking3.png" className="avatar" alt="" />
-          <div className="about__grid even">
-            <div
-              className="img"
-              data-aos="fade-left"
-              data-aos-delay="300"
-              data-aos-easing="ease-out"
-            >
-              <img src={"/images/nft/Viking/Viking.gif"} alt="" />
-            </div>
-            <div className="details">
-              <div>
-                <h2 data-aos="fade-right">Viking</h2>
-              </div>
-              <p data-aos="fade-right" data-aos-delay="300">
-                Vikings were known for their strength, bravery and courage.
-                These gorgeous 500 Viking theme NFTs women embody all the
-                qualities of a true Viking warrior! Be proud of your
-                imperfections. Be proud to be you, with your glorious scars and
-                battle wounds. These badass women wear leather boots and
-                weaponry without apology. You can too!
-              </p>
-              <a
-                data-aos="fade-right"
-                data-aos-delay="300"
-                style={{ display: "inline-block" }}
-                href="https://twitter.com/Diva4EVR_NFT"
-                target={"_blank"}
-              >
-                <button>Buy On Opensea!</button>
-              </a>
-            </div>
-          </div>
-        </div>
-      </section>
       <section id="about" className="about witch">
         <div className="container">
           <img src="/images/elements/witch1.png" className="avatar" alt="" />
@@ -222,11 +182,11 @@ const AboutNft = () => {
           </div>
         </div>
       </section>
-      <section id="about" className="about sec greek">
+      <section id="about" className="about sec gothic">
         <div className="container">
-          <img src="/images/elements/greece1.png" className="avatar" alt="" />
-          <img src="/images/elements/greece2.png" className="avatar" alt="" />
-          <img src="/images/elements/greece3.png" className="avatar" alt="" />
+          <img src="/images/elements/gothic1.png" className="avatar" alt="" />
+          <img src="/images/elements/gothic2.png" className="avatar" alt="" />
+          <img src="/images/elements/gothic3.png" className="avatar" alt="" />
           <div className="about__grid even">
             <div
               className="img"
@@ -234,19 +194,20 @@ const AboutNft = () => {
               data-aos-delay="300"
               data-aos-easing="ease-out"
             >
-              <img src={"/images/nft/Greek/Greek.gif"} alt="" />
+              <img src={"/images/nft/Gothic/Gothic.gif"} alt="" />
             </div>
             <div className="details">
               <div>
-                <h2 data-aos="fade-right">Greek</h2>
+                <h2 data-aos="fade-right">Gothic</h2>
               </div>
               <p data-aos="fade-right" data-aos-delay="300">
-                Indulge yourself in the beauty of 2000 Greek theme NFTs. They
-                are hypnotic and possess features that will please you in every
-                way. In order for beauty to last, it must be timeless and
-                eternal. The more you stare, the more they seem to come alive.
-                Hypnotic eyes, seductive lips and alluring curves are what make
-                this Greek collection of beautiful women so attractive.
+                The allure of darkness reigns supreme in our 500 Gothic theme
+                NFTs. Dark and mysterious, these gothic women exude elegance
+                that’s hard to ignore. These women have faced their demons, and
+                you’ll feel stronger for it. The black, white, and red of this
+                collection are inspired by the color schemes of classic gothic
+                architecture (think spires and gargoyles). The beauty of the
+                dark is timeless.
               </p>
               <a
                 data-aos="fade-right"
@@ -261,6 +222,48 @@ const AboutNft = () => {
           </div>
         </div>
       </section>
+
+      <section id="about" className="about sec viking ">
+        <div className="container">
+          <img src="/images/elements/viking1.png" className="avatar" alt="" />
+          <img src="/images/elements/viking2.png" className="avatar" alt="" />
+          <img src="/images/elements/viking3.png" className="avatar" alt="" />
+          <div className="about__grid even">
+            <div
+              className="img"
+              data-aos="fade-left"
+              data-aos-delay="300"
+              data-aos-easing="ease-out"
+            >
+              <img src={"/images/nft/Viking/Viking.gif"} alt="" />
+            </div>
+            <div className="details">
+              <div>
+                <h2 data-aos="fade-right">Viking</h2>
+              </div>
+              <p data-aos="fade-right" data-aos-delay="300">
+                Vikings were known for their strength, bravery and courage.
+                These gorgeous 500 Viking theme NFTs women embody all the
+                qualities of a true Viking warrior! Be proud of your
+                imperfections. Be proud to be you, with your glorious scars and
+                battle wounds. These badass women wear leather boots and
+                weaponry without apology. You can too!
+              </p>
+              <a
+                data-aos="fade-right"
+                data-aos-delay="300"
+                style={{ display: "inline-block" }}
+                href="https://twitter.com/Diva4EVR_NFT"
+                target={"_blank"}
+              >
+                <button>Buy On Opensea!</button>
+              </a>
+            </div>
+          </div>
+        </div>
+      </section>
+ 
+      
     </>
   );
 };

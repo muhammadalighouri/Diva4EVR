@@ -92,12 +92,11 @@ const Navigation = ({ timeline, ease }) => {
                           target={"_blank"}
                           className={item.name}
                         >
-                         {item.svg}
+                          {item.svg}
                         </a>
                       );
                     })}
                   </li>
-
                 </ul>
               </nav>
               <div className="nav__btns">
