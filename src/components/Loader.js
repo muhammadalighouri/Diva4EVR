@@ -18,7 +18,7 @@ import '../scss/loader.scss';
                 const diff = Math.random() * 80;
                 return Math.min(oldProgress + diff, 100);
             });
-        }, 2000);
+        }, 1000);
 
         return () => {
             clearInterval(timer);
