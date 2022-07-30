@@ -1,7 +1,7 @@
 import React from "react";
 import "../scss/introduction.scss";
 import { TimelineLite, Power4 } from "gsap/gsap-core";
-import Marquee from "react-easy-marquee";
+import Marquee from "react-fast-marquee";
 import { Parallax } from "react-parallax";
 import bg from "./back.webp";
 const Introduction = () => {
@@ -32,7 +32,7 @@ const Introduction = () => {
         strength={200}
       >
         <div className="marq">
-          <Marquee duration={50000} background="transparent"  height="60px">
+          <Marquee Reverse={false} duration={50000} background="transparent"  height="60px" gradient={false}>
             <h1 style={{ textTransform: "uppercase" }}>
               A collection of goddess-like divas with a variety of personalities
               and styles.
