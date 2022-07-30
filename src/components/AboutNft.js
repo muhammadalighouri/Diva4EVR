@@ -55,7 +55,7 @@ const AboutNft = () => {
                 data-aos="fade-up"
                 data-aos-delay="300"
                 style={{ display: "inline-block" }}
-                href=" https://twitter.com/MetaElves_NFT?t=bh8jlLxN07OYoGjtiZrUug&s=09"
+                href="https://twitter.com/Diva4EVR_NFT"
                 target={"_blank"}
               >
                 <button>Buy On Opensea!</button>
@@ -95,7 +95,7 @@ const AboutNft = () => {
                 data-aos="fade-right"
                 data-aos-delay="300"
                 style={{ display: "inline-block" }}
-                href=" https://twitter.com/MetaElves_NFT?t=bh8jlLxN07OYoGjtiZrUug&s=09"
+                href="https://twitter.com/Diva4EVR_NFT"
                 target={"_blank"}
               >
                 <button>Buy On Opensea!</button>
@@ -134,7 +134,7 @@ const AboutNft = () => {
                 data-aos="fade-left"
                 data-aos-delay="300"
                 style={{ display: "inline-block" }}
-                href=" https://twitter.com/MetaElves_NFT?t=bh8jlLxN07OYoGjtiZrUug&s=09"
+                href="https://twitter.com/Diva4EVR_NFT"
                 target={"_blank"}
               >
                 <button>Buy On Opensea!</button>
@@ -173,7 +173,7 @@ const AboutNft = () => {
                 data-aos="fade-right"
                 data-aos-delay="300"
                 style={{ display: "inline-block" }}
-                href=" https://twitter.com/MetaElves_NFT?t=bh8jlLxN07OYoGjtiZrUug&s=09"
+                href="https://twitter.com/Diva4EVR_NFT"
                 target={"_blank"}
               >
                 <button>Buy On Opensea!</button>
@@ -213,7 +213,7 @@ const AboutNft = () => {
                 data-aos="fade-left"
                 data-aos-delay="300"
                 style={{ display: "inline-block" }}
-                href=" https://twitter.com/MetaElves_NFT?t=bh8jlLxN07OYoGjtiZrUug&s=09"
+                href="https://twitter.com/Diva4EVR_NFT"
                 target={"_blank"}
               >
                 <button>Buy On Opensea!</button>
@@ -252,7 +252,7 @@ const AboutNft = () => {
                 data-aos="fade-right"
                 data-aos-delay="300"
                 style={{ display: "inline-block" }}
-                href=" https://twitter.com/MetaElves_NFT?t=bh8jlLxN07OYoGjtiZrUug&s=09"
+                href="https://twitter.com/Diva4EVR_NFT"
                 target={"_blank"}
               >
                 <button>Buy On Opensea!</button>

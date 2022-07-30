@@ -101,7 +101,7 @@ const Navigation = ({ timeline, ease }) => {
                 </ul>
               </nav>
               <div className="nav__btns">
-                <a href="#" target="_blank">
+                <a href="https://twitter.com/Diva4EVR_NFT" target="_blank">
                   <div className="btn">Opensea!</div>
                 </a>
                 <div onClick={() => barBtn()}>
