@@ -52,22 +52,36 @@ const Introduction = () => {
 
   return (
     <>
-      <Parallax blur={0} bgImage={bg} bgStyle={{filter:'brightness(0.5)'}}  bgImageAlt="the cat" strength={200}>
+      <Parallax
+        blur={0}
+        bgImage={bg}
+        bgStyle={{ filter: "brightness(0.5)" }}
+        bgImageAlt="the cat"
+        strength={200}
+      >
         <div className="marq">
           <Marquee duration={400000} background="transparent" height="60px">
-            {[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1].map((ite, i) => {
-              return (
-                <h1
-                  style={{
-                    color: "#fff",
-                    marginRight: "10px",
-                    textTransform: "uppercase",
-                  }}
-                >
-                  MetaElves – your ticket to the digital world
-                </h1>
-              );
-            })}
+            <h1 style={{textTransform:'uppercase'}}>
+              A collection of goddess-like divas with a variety of personalities
+              and styles.
+            </h1>
+
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            <h1 style={{textTransform:'uppercase'}}>
+              Unexplored territory lies ahead...take the path less traveled
+            </h1>
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            <h1 style={{textTransform:'uppercase'}}>The Divas of the World are Uniting</h1>
+            &nbsp;
+            &nbsp;
+            &nbsp;
+            &nbsp;
           </Marquee>
         </div>
         <section className="intro">
